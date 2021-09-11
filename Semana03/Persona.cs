@@ -91,8 +91,8 @@ namespace Semana03
                     });
 
                 }
-
                 dgvListado.DataSource = people;
+                dataReader.Close();
             }          
         }
     }
